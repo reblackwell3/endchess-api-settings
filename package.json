@@ -1,0 +1,30 @@
+{
+  "name": "endchess-api-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reblackwell3/endchess-api-settings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reblackwell3/endchess-api-settings/issues"
+  },
+  "homepage": "https://github.com/reblackwell3/endchess-api-settings#readme",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0"
+  }
+}
