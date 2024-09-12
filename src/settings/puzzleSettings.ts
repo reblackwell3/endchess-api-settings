@@ -1,15 +1,17 @@
-export enum Difficulty {
-    EASY,
-    MEDIUM,
-    HARD,
-  }
+export class PuzzleSettings {
+  static Difficulty = {
+    EASY: 'EASY',
+    MEDIUM: 'MEDIUM',
+    HARD: 'HARD',
+  };
 
-export enum FetchType {
-    RANDOM,
-    // BY_ID,
-}
+  static FetchType = {
+    RANDOM: 'RANDOM',
+    // BY_ID: 'BY_ID',
+  };
 
-export enum SolvedStatus { // can pass both solved and unsolved for all statuses
-    UNSOLVED,
-    SOLVED,
+  static SolvedStatus = {
+    UNSOLVED: 'UNSOLVED',
+    SOLVED: 'SOLVED',
+  };
 }

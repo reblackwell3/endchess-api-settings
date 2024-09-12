@@ -1,4 +1,6 @@
-export enum RatingCategory {
-    MASTER,
-    NEAR_RATING,
+export class GamesSettings {
+  static RatingCategory = {
+    MASTER: 'MASTER',
+    NEAR_RATING: 'NEAR_RATING',
+  };
 }
