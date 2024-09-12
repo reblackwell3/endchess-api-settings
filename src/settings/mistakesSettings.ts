@@ -5,3 +5,7 @@ export class MistakesSettings {
     INACCURACY: 'INACCURACY',
   };
 }
+
+export type MistakesSettingsDto = {
+  mistakeTypes?: string[];
+};

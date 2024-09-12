@@ -4,3 +4,7 @@ export class GamesSettings {
     NEAR_RATING: 'NEAR_RATING',
   };
 }
+
+export type GamesSettingsDto = {
+  ratingCategories?: string[];
+};

@@ -15,3 +15,9 @@ export class PuzzleSettings {
     SOLVED: 'SOLVED',
   };
 }
+
+export type PuzzleSettingsDto = {
+  fetchType?: string;
+  difficulties?: string[];
+  solvedStatuses?: string[];
+};
