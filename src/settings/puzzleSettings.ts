@@ -21,3 +21,5 @@ export type PuzzleSettingsDto = {
   difficulties?: string[];
   solvedStatuses?: string[];
 };
+
+export type IMoveFeedback = {};
