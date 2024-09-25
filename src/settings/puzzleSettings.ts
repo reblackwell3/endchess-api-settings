@@ -22,4 +22,14 @@ export type PuzzleSettingsDto = {
   solvedStatuses?: string[];
 };
 
-export type IMoveFeedback = {};
+export type MoveFeedbackDto = {
+  index: number;
+  guess?: {
+    sourceSquare: string;
+    targetSquare: string;
+    piece: string;
+  };
+  hintRequested?: boolean;
+  isCorrect?: boolean;
+  isFinished?: boolean;
+};
