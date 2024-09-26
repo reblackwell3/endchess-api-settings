@@ -23,7 +23,6 @@ export type PuzzleSettingsDto = {
 };
 
 export type MoveFeedbackDto = {
-  puzzleId: string;
   index: number;
   guess?: {
     sourceSquare: string;
