@@ -8,6 +8,7 @@ Base path: `C:/Users/rebla/code/`
 | --- | --- |
 | endchess-frontend | `C:/Users/rebla/code/endchess-frontend` |
 | endchess-backend | `C:/Users/rebla/code/endchess-backend` |
+| endchess-workers | `C:/Users/rebla/code/endchess-workers` |
 
 ## Main repos (`dev` → `main`)
 
